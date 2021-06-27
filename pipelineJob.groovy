@@ -1,4 +1,4 @@
-pipeline{
+pipeline {
     agent any
     stages {
         stage('Build') {
@@ -7,7 +7,7 @@ pipeline{
             }
         }
         stage('Test'){
-            steps{
+            steps {
                 echo 'Test'
             }
         }
